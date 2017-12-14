@@ -123,17 +123,17 @@ void Handler::initPredix()
 {
     // initialising Predix UAA service to have access to cloud
     QUaaInfo lInfo;
-    lInfo.setUaaUrl("https://a3fe4c03-fa0b-4f78-bc33-67df00f5cdf5.predix-uaa.run.aws-usw02-pr.ice.predix.io");
-    lInfo.setBase64ClientCredential("bG9naW5fY2xpZW50X2lkOnF3ZXJ0eTEyMw==");
+    lInfo.setUaaUrl("Your Uaa URI");
+    lInfo.setClientCredential("login", "Secret");
 
     QUaaUserInfo lUser;
-    lUser.setLogin("app_user_1");
-    lUser.setPassword("qwerty123");
+    lUser.setLogin("login");
+    lUser.setPassword("secret");
 
     mUaa = new QUaa(lInfo);
     mUaa->loginWithCredentials(lUser);
 
     //set timeseries zineid to get access to data storage
     mTimeSeries = new QTimeSeries(mUaa);
-    mTimeSeries->setZoneID("5e5d076e-c8df-4340-a9b3-7e5c0a1386ef");
+    mTimeSeries->setZoneID("zoneId");
 }
