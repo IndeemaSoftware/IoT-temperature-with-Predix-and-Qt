@@ -1,7 +1,7 @@
 QT += core serialport network websockets
 QT -= gui
 
-include (./QPredix/QPredix.pri)
+include (./vendor/Vendor.pri)
 
 CONFIG += c++11
 

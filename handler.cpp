@@ -5,7 +5,7 @@
 #include <QSerialPortInfo>
 #include <QDebug>
 
-#include "QPredix/qpredix.h"
+#include "com/indeema/QPredix/qpredix.h"
 
 #include <QDebug>
 #include <QJsonDocument>

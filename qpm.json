@@ -1,0 +1,24 @@
+{
+  "name": "com.indeema.IoT-temperature-with-Predix-and-Qt",
+  "description": "",
+  "author": {
+    "name": "Indeema Software Inc.",
+    "email": "support@indeema.com"
+  },
+  "repository": {
+    "type": "GITHUB",
+    "url": "https://github.com/IndeemaSoftware/IoT-temperature-with-Predix-and-Qt.git"
+  },
+  "version": {
+    "label": "0.0.1",
+    "revision": "",
+    "fingerprint": ""
+  },
+  "dependencies": [
+    "com.indeema.QPredix",
+    "com.indeema.QPredix@0.9.1"
+  ],
+  "license": "MIT",
+  "pri_filename": "com_indeema_IoT-temperature-with-Predix-and-Qt.pri",
+  "webpage": ""
+}
